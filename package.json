@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/stevenrobertsdev/Banner_Magic#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "hbs": "^4.0.1",
+    "node-xlsx": "^0.12.0",
+    "xlsx-to-json": "^0.3.0",
+    "yargs": "^11.0.0"
   }
 }
