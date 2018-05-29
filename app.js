@@ -1,21 +1,40 @@
-const xlsx = require('node-xlsx').default;
-const fs = require("fs");
+const xlsx = require('node-xlsx').default,
+      fs = require("fs"),
+      {custom_request} = require("./models.js");
 
-const {online_offer} = require("./templates.js");
+const yargs = require('yargs');
 
-const workSheetsFromFile = xlsx.parse(`data/banner.xlsx`);
+const argv = yargs.command('get', 'make a get HTTP request', {
+    url: {
+      alias: 'u',
+      default: 'http://yargs.js.org/',
+      demand: true
+    }
+  })
+  .help()
+  .argv;
 
-var dataArr = workSheetsFromFile[0].data;
+const command = argv._[0];
 
-for(var i = 0; i < dataArr.length; i++) {
-  fs.writeFileSync(`output/${dataArr[i][1]} banner.html`, online_offer(
-    dataArr[i][0],
-    dataArr[i][1],
-    dataArr[i][2],
-    dataArr[i][3],
-    dataArr[i][4],
-    dataArr[i][5],
-    dataArr[i][6],
-    dataArr[i][7]
-  ));
+if(command === "online") {
+  console.log("Online offers banner will be served");
+} else if(command === "custom") {
+
+  const workSheetsFromFile = xlsx.parse(`TEMPLATES/custom_request_MASTER.xlsx`);
+  var dataArr = workSheetsFromFile[0].data;
+  var count = 0;
+
+  for(var i = 0; i < dataArr.length; i++) {
+    count++;
+    fs.writeFileSync(`output/custom_request/${count}-${dataArr[i][0]}.txt`, custom_request(
+      dataArr[i][0],
+      dataArr[i][1]
+    ));
+  }
+  console.log(`*********************************`);
+  console.log(`Success!`);
+  console.log(`${count} banners, just like magic.`);
+  console.log(`*********************************`);
+} else {
+  console.log("Command not recognised, please try another.");
 }
