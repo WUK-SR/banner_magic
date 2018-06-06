@@ -32,4 +32,9 @@ To add variables into the code, firstly you will need to reference the name of t
 const Model = (title, colour, imgLink) => {
 ```
 
-You can these reference these in your HTML template using the template literal method - `${VARIABLE_NAME}`.
+You can these reference these in your HTML template using the template literal method - `${VARIABLE_NAME}`. Add these into the HTML using the same name as the variable that is being passed. So adding the title variable would look like this...
+
+```
+<h1 style="position:absolute;left: 270px;font-weight: 300;color: #fff;font-size: 31px;text-align: left;margin-top:0;top: 35px;left: 236px;"> ${title} </h1>
+```
+This will inject the contents of the title variable where `${title}` is placed in the code.
