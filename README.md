@@ -1,7 +1,9 @@
 # Banner Magic 1.0.0
 Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process of creating a range of generic banners.
 [Installation](#Installation)
+[Output](#Output)
 
+<a name="Installation"></a>
 ## Installation
 Clone banner magic and then run `npm install` to download all the dependencies.
 
@@ -89,5 +91,6 @@ for(var i = 0; i < dataArr.length; i++) {
 ## Running the application
 To run Banner Magic, inside the terminal type the command `npm run magic`.
 
+<a name="Output"></a>
 ## Output
 The outputted code can be found in the `Banners` folder at the root level of the application. Once the application has been successfully run, this folder will be populated with each generated banner as a `.txt` file.
