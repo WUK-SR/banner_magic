@@ -42,3 +42,4 @@ This will inject the contents of the title variable where `${title}` is placed i
 Complete this step for each variable that you want to add into the HTML code.
 
 ### Uploading the data
+Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
