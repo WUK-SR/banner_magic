@@ -7,16 +7,16 @@ Clone banner magic and then run `npm install` to download all the dependencies.
 ## Using the application
 There is currently a three step process to using Banner Magic.
 
-### Uploading the data
+## Uploading the data
 Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
 
 To update this data, open up the Excel and enter the data that you want. **Each row will be its own banner** and each column can represent what ever changing variable you need it to be. So here we are using column A for the title of the banner, column B as the colour and Column C as the image path.
 
 ![alt text](Images/Excel_Sheet_Example.png)
 
-#### THE ORDER OF THE COLUMNS IS IMPORTANT!
+### THE ORDER OF THE COLUMNS IS IMPORTANT!
 
-### Uploading a template
+## Uploading a template
 Once you have created one HTML banner and it has been tested and put through a QA process. Take the HTML code for the banner - which will most likely be from your local development environment - and navigate to the file `models.js` that can be found in the root of the application.
 
 Once inside this file, you will see a function that will return the HTML template into the main `app.js`. To update the template, paste the HTML code between the back-ticks, like so...
@@ -37,7 +37,7 @@ module.exports = {
 
 To add variables into the code, firstly you will need to reference the name of the variable inside the parentheses of the Model function. So here will will add the title, colour and image link variables as seen in the previous Excel screenshot.
 
-#### THE VARIABLES NEED TO BE ADDED IN THE SAME ORDER AS THE COLUMNS IN THE DATA SHEET
+### THE VARIABLES NEED TO BE ADDED IN THE SAME ORDER AS THE COLUMNS IN THE DATA SHEET
 
 ```
 const Model = (title, colour, imgLink) => {
@@ -52,7 +52,7 @@ This will inject the contents of the title variable where `${title}` is placed, 
 
 Complete this step for each variable that you want to be changed in the HTML code.
 
-### Tweaking the config
+## Tweaking the config
 To adjust the application to work with the updated template and data, some config settings need to be changed.
 
 Go into the `app.js` file that is in the root of the application. In the middle of that file you will see a `for loop`, it will look something like this...
@@ -85,5 +85,5 @@ for(var i = 0; i < dataArr.length; i++) {
 1. Each `dataArr[i][0]` needs a comma placed after it, unless it is the **last one**
 2. Arrays in JavaScript start at 0, so the first `dataArr[i][0]` will have `[0]` as the number. **You can see in the example that there are 5 elements but the numbers run 0 - 4**
 
-### Output
-The outputted code can be found in the `Banners` folder at the root level of the application. Once the application has been successfully run, this folder will be populated with each generated banner as a `.txt` file. 
+## Output
+The outputted code can be found in the `Banners` folder at the root level of the application. Once the application has been successfully run, this folder will be populated with each generated banner as a `.txt` file.
