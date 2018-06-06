@@ -43,3 +43,6 @@ Complete this step for each variable that you want to add into the HTML code.
 
 ### Uploading the data
 Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
+
+To update this data, open up the Excel and enter the data that you want
+![alt text](../Images/Excel_Sheet_Example.png)
