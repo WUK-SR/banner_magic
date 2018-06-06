@@ -14,6 +14,8 @@ To update this data, open up the Excel and enter the data that you want. **Each 
 
 ![alt text](Images/Excel_Sheet_Example.png)
 
+#### THE ORDER OF THE COLUMNS IS IMPORTANT!
+
 ### Uploading a template
 Once you have created one HTML banner and it has been tested and put through a QA process. Take the HTML code for the banner - which will most likely be from your local development environment - and navigate to the file `models.js` that can be found in the root of the application.
 
