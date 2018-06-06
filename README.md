@@ -38,3 +38,7 @@ You can these reference these in your HTML template using the template literal m
 <h1 style="position:absolute;left: 270px;font-weight: 300;color: #fff;font-size: 31px;text-align: left;margin-top:0;top: 35px;left: 236px;"> ${title} </h1>
 ```
 This will inject the contents of the title variable where `${title}` is placed in the code.
+
+Complete this step for each variable that you want to add into the HTML code.
+
+### Uploading the data
