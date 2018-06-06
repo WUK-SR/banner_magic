@@ -81,6 +81,6 @@ for(var i = 0; i < dataArr.length; i++) {
 }
 ```
 
-**Things to know when working with this for loop -**
+**Things to know when working with this** `for loop` **-**
 1. Each `dataArr[i][0]` needs a comma placed after it, unless it is the **last one**
 2. Arrays in JavaScript start at 0, so the first `dataArr[i][0]` will have `[0]` as the number. **You can see in the example that there are 5 elements but the numbers run 0 - 4**
