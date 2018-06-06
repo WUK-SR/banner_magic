@@ -7,6 +7,13 @@ Clone banner magic and then run `npm install` to download all the dependencies.
 ## Using the application
 There is currently a three step process to using Banner Magic.
 
+### Uploading the data
+Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
+
+To update this data, open up the Excel and enter the data that you want. **Each row will be its own banner** and each column can represent what ever variable need it to be. So here we are using column A for the title of the banner, column B as the colour and Column C as the image path.
+
+![alt text](Images/Excel_Sheet_Example.png)
+
 ### Uploading a template
 Once you have created one HTML banner and it has been tested and put through a QA process. Take the HTML code for the banner - which will most likely be from your local development environment - and navigate to the file `models.js` that can be found in the root of the application.
 
@@ -40,10 +47,3 @@ You can these reference these in your HTML template using the template literal m
 This will inject the contents of the title variable where `${title}` is placed in the code.
 
 Complete this step for each variable that you want to add into the HTML code.
-
-### Uploading the data
-Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
-
-To update this data, open up the Excel and enter the data that you want. **Each row will be its own banner** and each column can be what ever you need it to be. So here we are using column A for the title of the banner, column B as the colour and Column C as the image path. 
-
-![alt text](Images/Excel_Sheet_Example.png)
