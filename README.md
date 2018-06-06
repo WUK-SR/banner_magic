@@ -37,7 +37,7 @@ module.exports = {
 
 To add variables into the code, firstly you will need to reference the name of the variable inside the parentheses of the Model function. So here will will add the title, colour and image link variables as seen in the previous Excel screenshot.
 
-#### THE VARIABLES NEED TO BE ADDED IN THE SAME ORDER THEY ARE USED IN THE EXCEL SHEET
+#### THE VARIABLES NEED TO BE ADDED IN THE SAME ORDER AS THE COLUMNS IN THE DATA SHEET
 
 ```
 const Model = (title, colour, imgLink) => {
