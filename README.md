@@ -53,3 +53,4 @@ This will inject the contents of the title variable where `${title}` is placed, 
 Complete this step for each variable that you want to be changed in the HTML code.
 
 ### Tweaking the config
+To adjust the application to work with the updated template and data some config settings need to be changed.
