@@ -50,4 +50,6 @@ You can reference these in your HTML template using the template literal method 
 ```
 This will inject the contents of the title variable where `${title}` is placed, in this case between some `h1` tags.
 
-Complete this step for each variable that you want to add into the HTML code.
+Complete this step for each variable that you want to be changed in the HTML code.
+
+### Tweaking the config
