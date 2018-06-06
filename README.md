@@ -1,15 +1,20 @@
 # Banner Magic 1.0.0
 Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process of creating a range of generic banners.
-[Installation](#Installation)
-[Output](#Output)
+
+### Contents 
+1. [Installation](#Installation)
+2. [Uploading the data](#Uploading_the_data)
+3. [Uploading a template](#Uploading_the_template)
+4. [Tweaking the config](#Tweaking_the_config)
+5. [Running the application](#Running_the_application)
+5. [Output](#Output)
+
 
 <a name="Installation"></a>
 ## Installation
 Clone banner magic and then run `npm install` to download all the dependencies.
 
-## Using the application
-There is currently a three step process to using Banner Magic.
-
+<a name="Uploading_the_data"></a>
 ## Uploading the data
 Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
 
@@ -19,6 +24,7 @@ To update this data, open up the Excel and enter the data that you want. **Each 
 
 ### THE ORDER OF THE COLUMNS IS IMPORTANT!
 
+<a name="Uploading_the_template"></a>
 ## Uploading a template
 Once you have created one HTML banner and it has been tested and put through a QA process. Take the HTML code for the banner - which will most likely be from your local development environment - and navigate to the file `models.js` that can be found in the root of the application.
 
@@ -55,6 +61,7 @@ This will inject the contents of the title variable where `${title}` is placed, 
 
 Complete this step for each variable that you want to be changed in the HTML code.
 
+<a name="Tweaking_the_config"></a>
 ## Tweaking the config
 To adjust the application to work with the updated template and data, some config settings need to be changed.
 
@@ -88,6 +95,7 @@ for(var i = 0; i < dataArr.length; i++) {
 1. Each `dataArr[i][0]` needs a comma placed after it, unless it is the **last one**
 2. Arrays in JavaScript start at 0, so the first `dataArr[i][0]` will have `[0]` as the number. **You can see in the example that there are 5 elements but the numbers run 0 - 4**
 
+<a name="Running_the_application"></a>
 ## Running the application
 To run Banner Magic, inside the terminal type the command `npm run magic`.
 
