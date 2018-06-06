@@ -10,7 +10,7 @@ There is currently a three step process to using Banner Magic.
 ### Uploading the data
 Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
 
-To update this data, open up the Excel and enter the data that you want. **Each row will be its own banner** and each column can represent what ever variable need it to be. So here we are using column A for the title of the banner, column B as the colour and Column C as the image path.
+To update this data, open up the Excel and enter the data that you want. **Each row will be its own banner** and each column can represent what ever changing variable you need it to be. So here we are using column A for the title of the banner, column B as the colour and Column C as the image path.
 
 ![alt text](Images/Excel_Sheet_Example.png)
 
@@ -35,16 +35,16 @@ module.exports = {
 };
 ```
 
-To add variables into the code, firstly you will need to reference the name of the variable inside the parentheses of the Model function. So here will will add the title, colour and image link variables.
+To add variables into the code, firstly you will need to reference the name of the variable inside the parentheses of the Model function. So here will will add the title, colour and image link variables as seen in the previous Excel screenshot.
 
 ```
 const Model = (title, colour, imgLink) => {
 ```
 
-You can these reference these in your HTML template using the template literal method - `${VARIABLE_NAME}`. Add these into the HTML using the same name as the variable that is being passed. So adding the title variable would look like this...
+You can reference these in your HTML template using the template literal method - `${VARIABLE_NAME}`. Add these into the HTML using the same name as the variable that is being passed into the function. So adding the title variable would look like this...
 
 ```
-<h1 style="position:absolute;left: 270px;font-weight: 300;color: #fff;font-size: 31px;text-align: left;margin-top:0;top: 35px;left: 236px;"> ${title} </h1>
+<h1> ${title} </h1>
 ```
 This will inject the contents of the title variable where `${title}` is placed in the code.
 
