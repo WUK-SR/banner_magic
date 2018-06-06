@@ -46,6 +46,6 @@ You can reference these in your HTML template using the template literal method 
 ```
 <h1> ${title} </h1>
 ```
-This will inject the contents of the title variable where `${title}` is placed in the code.
+This will inject the contents of the title variable where `${title}` is placed, in this case between some `h1` tags.
 
 Complete this step for each variable that you want to add into the HTML code.
