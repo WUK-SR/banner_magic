@@ -26,4 +26,4 @@ module.exports = {
 };
 ```
 
-Once inside this file, you will see a function that will return the HTML template into the main `app.js`. To update the template, paste the HTML code between the back-ticks, like so...
+Once the template in is place, you will need to update the changing variables within the HTML template. To do this, use `Template Literals` referenced from the parameters given from the `Model` function.
