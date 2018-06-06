@@ -44,5 +44,6 @@ Complete this step for each variable that you want to add into the HTML code.
 ### Uploading the data
 Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
 
-To update this data, open up the Excel and enter the data that you want
+To update this data, open up the Excel and enter the data that you want. **Each row will be its own banner** and each column can be what ever you need it to be. So here we are using column A for the title of the banner, column B as the colour and Column C as the image path. 
+
 ![alt text](Images/Excel_Sheet_Example.png)
