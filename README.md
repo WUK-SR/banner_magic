@@ -13,7 +13,7 @@ Once you have created one HTML banner and it has been tested and put through a Q
 Once inside this file, you will see a function that will return the HTML template into the main `app.js`. To update the template, paste the HTML code between the back-ticks, like so...
 
 ```
-const Model = (title) => {
+const Model = () => {
   return `
 
   <PASTE YOUR TEMPLATE HTML CODE HERE>
