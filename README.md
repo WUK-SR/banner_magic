@@ -55,7 +55,8 @@ Complete this step for each variable that you want to be changed in the HTML cod
 ### Tweaking the config
 To adjust the application to work with the updated template and data, some config settings need to be changed.
 
-Go into the `app.js` file that is in the root of the application. In the middle of that file you will see a `for loop`, like so...
+Go into the `app.js` file that is in the root of the application. In the middle of that file you will see a `for loop`, it will look something like this...
+
 ```
 for(var i = 0; i < dataArr.length; i++) {
   count++;
@@ -65,3 +66,19 @@ for(var i = 0; i < dataArr.length; i++) {
   ));
 }
 ```
+All that you need to alter is the amount of arguments that are being passed into the Model function so it matches your new data set. To do that, simple add another `dataArr[i][0]` to the list, with the number inside the square brackets following the sequential order. Add as many as there are columns in your data sheet, so if you had 6 columns in your data set, your for loop would look like this...
+
+```
+for(var i = 0; i < dataArr.length; i++) {
+  count++;
+  fs.writeFileSync(`Banners/${count}-${dataArr[i][0]}.txt`, Model(
+    dataArr[i][0],
+    dataArr[i][1],
+    dataArr[i][2],
+    dataArr[i][3],
+    dataArr[i][4]
+  ));
+}
+```
+
+umns in your data set, your for loop would look like this...
