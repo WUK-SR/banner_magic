@@ -1,7 +1,8 @@
 # Banner Magic 1.0.0
 Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process of creating a range of generic banners.
 
-There are 4 steps to running Banner Magic - **Add the data** > **Add the template** > **Tweak the config** > **Run the app** >
+There are 4 steps to running Banner Magic -
+**Add the data** > **Add the template** > **Tweak the config** > **Run the application**
 
 Follow the contents sections below in order to setup the application to fit your needs.
 
