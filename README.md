@@ -1,5 +1,6 @@
 # Banner Magic 1.0.0
 Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process of creating a range of generic banners.
+[Installation](## Installation)
 
 ## Installation
 Clone banner magic and then run `npm install` to download all the dependencies.
