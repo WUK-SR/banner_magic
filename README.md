@@ -28,8 +28,8 @@ module.exports = {
 
 Once the template in is place, you will need to update the changing variables within the HTML template. To do this, use `Template Literals` referenced from the parameters given from the `Model` function.
 
-To add variables into the code, firstly you will need to reference the name of the variable inside the parentheses of the Model function, like so...
+To add variables into the code, firstly you will need to reference the name of the variable inside the parentheses of the Model function. So here will will add the title, colour and image link variables.
 
 ```
-const Model = (VarOne, VarTwo, VarThree) => {
+const Model = (title, colour, imgLink) => {
 ```
