@@ -53,4 +53,15 @@ This will inject the contents of the title variable where `${title}` is placed, 
 Complete this step for each variable that you want to be changed in the HTML code.
 
 ### Tweaking the config
-To adjust the application to work with the updated template and data some config settings need to be changed.
+To adjust the application to work with the updated template and data, some config settings need to be changed.
+
+Go into the `app.js` file that is in the root of the application. In the middle of that file you will see a `for loop`, like so...
+```
+for(var i = 0; i < dataArr.length; i++) {
+  count++;
+  fs.writeFileSync(`Banners/${count}-${dataArr[i][0]}.txt`, Model(
+    dataArr[i][0],
+    dataArr[i][1]
+  ));
+}
+```
