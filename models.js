@@ -2,8 +2,7 @@
 const Model = () => {
   return `
 
-  <PASTE HTML HERE />
-
+  <PASTE YOUR HTML HERE>
   `
 };
 

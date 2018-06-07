@@ -1,1 +1,1 @@
-Inside this folder you will find your generated banners.
+Your generated banners will appear in the Banners folder.
