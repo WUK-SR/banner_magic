@@ -2,7 +2,7 @@
 const Model = () => {
   return `
 
-  <PASTE YOUR HTML HERE>
+  < PASTE YOUR HTML THERE />
   `
 };
 

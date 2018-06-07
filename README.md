@@ -1,4 +1,4 @@
-# Banner Magic 1.0.0
+# Banner Magic 1.1.0
 Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process of creating a range of generic banners.
 
 There are 4 steps to running Banner Magic -
@@ -29,7 +29,7 @@ Inside the `Data` folder in the root of the application you will find an Excel s
 
 To update this data, open up the Excel and enter the data that you want. **Each row will be its own banner** and each column can represent what ever changing variable you need it to be. So here we are using column A for the title of the banner, column B as the colour and Column C as the image path.
 
-![alt text](Images/Excel_Sheet_Example.png)
+![alt text](Utils/Images/Excel_Sheet_Example.png)
 
 ### THE ORDER OF THE COLUMNS IS IMPORTANT!
 
