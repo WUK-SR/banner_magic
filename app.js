@@ -1,13 +1,16 @@
+
+// Import third-party
 const xlsx = require('node-xlsx').default,
-      fs = require("fs"),
-      zipFolder = require('zip-folder'),
-      {Model} = require("./Utils/models.js");
+      fs = require("fs");
 
-const {Success} = require("./Utils/successMessage.js");
+// Import local
+const {Success} = require("./Utils/successMessage.js"),
+      {Model} = require("./Utils/models.js"),
+      {Compress} = require("./Utils/compress.js");
 
 
-let workSheetsFromFile = xlsx.parse(`Utils/Data/data_model.xlsx`),
-    dataArr = workSheetsFromFile[0].data,
+let data_model = xlsx.parse(`Utils/Data/data_model.xlsx`),
+    dataArr = data_model[0].data,
     count = 0;
 
 for(let i = 0; i < dataArr.length; i++) {
@@ -17,5 +20,5 @@ for(let i = 0; i < dataArr.length; i++) {
   ));
 }
 
-
+Compress('Banners');
 Success(count);

@@ -24,6 +24,7 @@
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.2.0",
     "hbs": "^4.0.1",
+    "moment": "^2.22.2",
     "node-xlsx": "^0.12.0",
     "xlsx-to-json": "^0.3.0",
     "yargs": "^11.0.0"
