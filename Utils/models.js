@@ -1,10 +1,8 @@
 
-const Model = (title) => {
+const Model = () => {
   return `
 
-  <div>
-  <h1> ${title} </h1>
-  </div>
+  < PASTE YOUR HTML THERE />
   `
 };
 
