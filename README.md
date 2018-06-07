@@ -35,7 +35,7 @@ To update this data, open up the Excel and enter the data that you want. **Each 
 
 <a name="Uploading_the_template"></a>
 ## Uploading a template
-Once you have created one HTML banner and it has been tested and put through a QA process. Take the HTML code for the banner - which will most likely be from your local development environment - and navigate to the file `models.js` that can be found in the `Utils` of the application.
+Once you have created one HTML banner and it has been tested and put through a QA process. Take the HTML code for the banner - which will most likely be from your local development environment - and navigate to the file `models.js` that can be found in the `Utils` folder of the application.
 
 Once inside this file, you will see a function that will return the HTML template into the main `app.js`. To update the template, paste the HTML code between the back-ticks, like so...
 
