@@ -7,6 +7,9 @@ There are 4 steps to running Banner Magic -
 
 Follow the contents sections below in order to setup the application to fit your needs.
 
+### Download the application
+[Click here!](https://github.com/stevenrobertswolseley/banner_magic/archive/master.zip)
+
 ### Contents
 1. [Installation](#Installation)
 2. [Uploading the data](#Uploading_the_data)
