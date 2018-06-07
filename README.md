@@ -25,7 +25,7 @@ Clone banner magic and then run `npm install` to download all the dependencies.
 
 <a name="Uploading_the_data"></a>
 ## Uploading the data
-Inside the `Data` folder in the root of the application you will find an Excel sheet titled `data_model.xlsx`.
+Inside the `Data` folder in the `Utils` folder of the application you will find an Excel sheet titled `data_model.xlsx`.
 
 To update this data, open up the Excel and enter the data that you want. **Each row will be its own banner** and each column can represent what ever changing variable you need it to be. So here we are using column A for the title of the banner, column B as the colour and Column C as the image path.
 
@@ -35,7 +35,7 @@ To update this data, open up the Excel and enter the data that you want. **Each 
 
 <a name="Uploading_the_template"></a>
 ## Uploading a template
-Once you have created one HTML banner and it has been tested and put through a QA process. Take the HTML code for the banner - which will most likely be from your local development environment - and navigate to the file `models.js` that can be found in the root of the application.
+Once you have created one HTML banner and it has been tested and put through a QA process. Take the HTML code for the banner - which will most likely be from your local development environment - and navigate to the file `models.js` that can be found in the `Utils` of the application.
 
 Once inside this file, you will see a function that will return the HTML template into the main `app.js`. To update the template, paste the HTML code between the back-ticks, like so...
 
@@ -111,3 +111,5 @@ To run Banner Magic, inside the terminal type the command `npm run magic`.
 <a name="Output"></a>
 ## Output
 The outputted code can be found in the `Banners` folder at the root level of the application. Once the application has been successfully run, this folder will be populated with each generated banner as a `.txt` file.
+
+You will also get a `.zip` folder containing all of the generated banners.
