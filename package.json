@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "magic_DC": "node app.js -t=deals -s=cat",
-    "magic_DH": "node app.js -t=deals -s=hp"
+    "magic_DH": "node app.js -t=deals -s=hp",
+    "magic_OOC": "node app.js -t=online_offers -s=cat",
+    "magic_OOH": "node app.js -t=online_offers -s=hp"
   },
   "repository": {
     "type": "git",
