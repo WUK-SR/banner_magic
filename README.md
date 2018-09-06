@@ -1,7 +1,7 @@
 
 ![Example of Excel sheet data model](Utils/Images/logo.png)
 
-Version 2.0.0
+Version 2.3.0
 
 Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process.
 
