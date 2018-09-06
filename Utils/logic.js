@@ -14,7 +14,7 @@ let data_model = null,
 
 const Logic = (input) => {
 
-  data_model = xlsx.parse(`Utils/Data/data_model.xlsx`);
+  data_model = xlsx.parse(`Utils/Data/deals_data_model.xlsx`);
 
   let dataArr = data_model[0].data,
       count = 0;
