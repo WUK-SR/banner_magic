@@ -3,7 +3,7 @@
 
 Version 2.3.0
 
-Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process.
+Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process of creating banner assets.
 
 There are 2 steps to running Banner Magic -
 <br/>
