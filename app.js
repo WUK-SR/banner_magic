@@ -1,11 +1,21 @@
-// Import third-party
-const yargs = require('yargs');
+// Import third party
+const yargs = require('yargs')
 
 // Import local
 const {Compress} = require("./Utils/compress.js"),
       {Logic,finalCount} = require("./Utils/logic.js");
 
-Logic('deals-cat');
 
+const argv = yargs.argv;
 
-Compress('Banners');
+if(argv.t === "deals" && argv.s ==="cat" ) {
+  Logic("deals-category");
+} else if (argv.t === "deals" && argv.s ==="hp" ) {
+  Logic("deals-homepage");
+} else {
+  console.log("Command not valid.")
+  console.log("1. Run 'npm run magic_DC' for deals category banners")
+  console.log("2. Run 'npm run magic_DH' for deals homepage banners")
+}
+
+// Compress('Banners');

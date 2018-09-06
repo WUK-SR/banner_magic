@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "magic": "node app.js"
+    "magic_DC": "node app.js -t=deals -s=cat",
+    "magic_DH": "node app.js -t=deals -s=hp"
   },
   "repository": {
     "type": "git",
