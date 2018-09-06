@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "magic": "node app.js"
+    "magic_DC": "node app.js -t=deals -s=cat",
+    "magic_DH": "node app.js -t=deals -s=hp",
+    "magic_OOC": "node app.js -t=online_offers -s=cat",
+    "magic_OOH": "node app.js -t=online_offers -s=hp"
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,6 @@
     "moment": "^2.22.2",
     "node-xlsx": "^0.12.0",
     "xlsx-to-json": "^0.3.0",
-    "yargs": "^11.0.0"
+    "yargs": "^12.0.1"
   }
 }

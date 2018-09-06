@@ -1,26 +1,33 @@
-
-// Import third-party
-const xlsx = require('node-xlsx').default,
-      fs = require("fs");
+// Import third party
+const yargs = require('yargs')
 
 // Import local
-const {Success} = require("./Utils/successMessage.js"),
-      {Model} = require("./Utils/models.js"),
-      {Compress} = require("./Utils/compress.js");
+const {Compress} = require("./Utils/compress.js"),
+      {Logic,finalCount} = require("./Utils/logic.js");
 
 
-let data_model = xlsx.parse(`Utils/Data/data_model.xlsx`),
-    dataArr = data_model[0].data,
-    count = 0;
+const argv = yargs.argv;
 
-for(let i = 0; i < dataArr.length; i++) {
-  count++;
-  fs.writeFileSync(`Banners/${count}-${dataArr[i][0]}.txt`, Model(
-    dataArr[i][0],
-    dataArr[i][1],
-    dataArr[i][2]
-  ));
+if(argv.t === "deals" && argv.s ==="cat" ) {
+  Logic("deals_category");
 }
 
-Compress('Banners');
-Success(count);
+else if (argv.t === "deals" && argv.s ==="hp" ) {
+  Logic("deals_homepage");
+}
+
+else if(argv.t === "online_offers" && argv.s ==="cat") {
+  Logic("online_offers_category");
+}
+
+else if(argv.t === "online_offers" && argv.s ==="hp") {
+  Logic("online_offers_homepage");
+}
+
+else {
+  console.log("Command not valid.")
+  console.log("1. Run 'npm run magic_DC' for deals category banners")
+  console.log("2. Run 'npm run magic_DH' for deals homepage banners")
+  console.log("1. Run 'npm run magic_OOC' for online offers category banners")
+  console.log("2. Run 'npm run magic_OOH' for online offers homepage banners")
+}
