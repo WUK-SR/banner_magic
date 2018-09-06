@@ -56,7 +56,7 @@ To choose and run the app with a deals category banner template, use the line `n
 ** All the data in the Excel sheet will be converted into a Homepage banner, but only the ones where the keyword `YES` was stated in the `HP` column of the sheet will contain content, otherwise the files will render `Empty.`. These empty files can simply be deleted after generation.
 
 ### Online offers category banner
-To choose and run the app with a deals category banner template, use the line `npm run magic_OC`.
+To choose and run the app with a deals category banner template, use the line `npm run magic_OOC`.
 
 ### Online offers homepage banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_OOH`.
