@@ -38,8 +38,6 @@ To update this data, open up the desired Excel and enter the data that you want,
 
 ![Example of Excel sheet data model](Utils/Images/Excel_Sheet_Example.png)
 
-### THE ORDER OF THE COLUMNS IS IMPORTANT!
-
 <a name="Choosing_a_template"></a>
 ## Choosing a template
 Once the data has been loaded into the correct Excel sheet, you have 4 templates to choose from.
