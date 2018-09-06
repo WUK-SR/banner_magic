@@ -15,13 +15,14 @@ Follow the contents sections below in order to setup the application to fit your
 [Click here!](https://github.com/stevenrobertswolseley/banner_magic/archive/master.zip)
 
 ### Contents
-1. [Installation](#Installation)
-2. [Uploading the data](#Uploading_the_data)
-3. [Choosing a template](#Choosing_a_template)
-4. [Output](#Output)
+1. [Requirements](#Requirements)
+2. [Installation](#Installation)
+3. [Uploading the data](#Uploading_the_data)
+4. [Choosing a template](#Choosing_a_template)
+5. [Output](#Output)
 
 
-<a name="Installation"></a>
+<a name="Requirements"></a>
 ## Requirements
 Banner magic requires Node.js version 10.9.0 or newer to operate.
 
