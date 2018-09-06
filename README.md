@@ -46,6 +46,17 @@ Once the data has been loaded into the correct Excel sheet, you have 4 templates
 ### Deals category banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_DC`.
 
+### Deals homepage banner
+To choose and run the app with a deals category banner template, use the line `npm run magic_DH`.
+** All the data in the Excel sheet will be converted into a Homepage banner, but only the ones where the keyword `YES` was stated in the `HP` column of the sheet will contain content, otherwise the files will render `Empty.`. These empty files can simply be deleted after generation.
+
+### Online offers category banner
+To choose and run the app with a deals category banner template, use the line `npm run magic_OC`.
+
+### Online offers homepage banner
+To choose and run the app with a deals category banner template, use the line `npm run magic_OOH`.
+** All the data in the Excel sheet will be converted into a Homepage banner, but only the ones where the keyword `YES` was stated in the `HP` column of the sheet will contain content, otherwise the files will render `Empty.`. These empty files can simply be deleted after generation.
+
 <a name="Output"></a>
 ## Output
 The outputted code can be found in the `Banners` folder at the root level of the application. Once the application has been successfully run, this folder will be populated with each generated banner as a `.txt` file.
