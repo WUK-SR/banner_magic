@@ -11,7 +11,8 @@ const {Success} = require("./successMessage.js"),
 const {DealsCat} = require("./Models/DealsCat.js"),
       {DealsHP} = require("./Models/DealsHomepage.js"),
       {OnlineOffersCat} = require("./Models/OnlineOffersCat.js"),
-      {OnlineOffersHP} = require("./Models/OnlineOffersHomepage.js");
+      {OnlineOffersHP} = require("./Models/OnlineOffersHomepage.js"),
+      {DealsSearchTerms} = require("./Models/DealsSearchTerms.js");
 
 let data_model = null,
     finalCount = 0;
@@ -133,6 +134,22 @@ const Logic = (input) => {
     Success(count,input);
     Compress('Banners',input);
   } // end OO-hp else if
+
+  else if(input === "deals_search_terms") {
+    data_model = xlsx.parse(`Utils/Data/deals_search_terms_data_model.xlsx`);
+    let dataArr = data_model[0].data,
+        count = 0;
+    for(let i = 1; i < dataArr.length; i++) {
+      count++;
+      fs.writeFileSync(`Banners/${count}-${input}_banner_${dataArr[i][0]}.txt`, DealsSearchTerms(
+        dataArr[i][0],
+        dataArr[i][1],
+        dataArr[i][2],
+      ));
+    }
+    Success(count,input);
+    Compress('Banners',input);
+  } // end deals-search else if
 }
 
 module.exports = {

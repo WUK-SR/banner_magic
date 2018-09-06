@@ -24,6 +24,10 @@ else if(argv.t === "online_offers" && argv.s ==="hp") {
   Logic("online_offers_homepage");
 }
 
+else if(argv.t === "deals" && argv.s ==="st") {
+  Logic("deals_search_terms");
+}
+
 else {
   console.log("Command not valid.")
   console.log("1. Run 'npm run magic_DC' for deals category banners")
