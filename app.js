@@ -1,3 +1,5 @@
+// Import third-party
+const yargs = require('yargs');
 
 // Import local
 const {Compress} = require("./Utils/compress.js"),
