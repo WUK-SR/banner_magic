@@ -72,7 +72,7 @@ const Logic = (input) => {
         dataArr[i][15]
       ));
     }
-    Success(count);
+    Success(count,input);
     Compress('Banners',input);
   } // end DEALS-HP else if
 
@@ -101,7 +101,7 @@ const Logic = (input) => {
         dataArr[i][15]
       ));
     }
-    Success(count);
+    Success(count,input);
     Compress('Banners',input);
   } // end OO-cat else if
 
@@ -130,7 +130,7 @@ const Logic = (input) => {
         dataArr[i][15]
       ));
     }
-    Success(count);
+    Success(count,input);
     Compress('Banners',input);
   } // end OO-hp else if
 }
