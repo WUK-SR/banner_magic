@@ -1,8 +1,8 @@
 
-const Success = (count) => {
+const Success = (count,input) => {
   console.log(`*********************************`);
   console.log(`Success!`);
-  console.log(`${count} banners, just like magic.`);
+  console.log(`${count} ${input} banners, just like magic.`);
   console.log(`*********************************`);
 }
 

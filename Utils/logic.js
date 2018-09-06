@@ -21,7 +21,7 @@ const Logic = (input) => {
 
   for(let i = 1; i < dataArr.length; i++) {
     count++;
-    fs.writeFileSync(`Banners/${count}-homepage_banner_${dataArr[i][0]}.txt`, DealsHP(
+    fs.writeFileSync(`Banners/${count}-category_banner_${dataArr[i][0]}.txt`, DealsCat(
       dataArr[i][0],
       dataArr[i][1],
       dataArr[i][2],
@@ -40,10 +40,8 @@ const Logic = (input) => {
       dataArr[i][15]
     ));
   }
-  Success(count);
+  Success(count,input);
 }
-
-
 
 module.exports = {
   Logic,
