@@ -1,5 +1,5 @@
 
-const DealsCat = (cat, title_one, title_two, was_price, now_price, img_link, generic_message, message_two_a, message_two_b, promo, promo_one, promo_two, code, url_link) => {
+const DealsCat = (cat, title_one, title_two, was_price, now_price, img_link, generic_message, message_two_a, message_two_b, promo, promo_text, code, url_link) => {
 
   let message = `<h2 style="position:absolute;font-size: 41px;left: 603px;top: 11px;color: #cd2e31;font-weight: 800;margin-top: 0;line-height: 38px;"> Great <br> Value </h2>`,
       promo_spot = ``;
@@ -13,7 +13,7 @@ const DealsCat = (cat, title_one, title_two, was_price, now_price, img_link, gen
   if(promo === "YES") {
     promo_spot = (
       `<div style="position:absolute;width: 70px;height: 70px;background-color:#cd2e31;border-radius: 100px;top: 4px;left: 393px;z-index: 1;">
-                      <p style="color:#fff;position:  absolute;top: 0;left: 0;right: 0;bottom: 0;text-align:  center;height: 46%;margin:  auto;width: 96%;font-size: 11px;line-height: 14px;"> ${promo_one} <br>${promo_two} </p>
+                      <p style="color:#fff;position:  absolute;top: 0;left: 0;right: 0;bottom: 0;text-align:  center;height: 46%;margin:  auto;width: 96%;font-size: 11px;line-height: 14px;"> ${promo_text} </p>
                     </div>`
     )
   }
