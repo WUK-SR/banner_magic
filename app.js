@@ -9,8 +9,7 @@ const {Success} = require("./Utils/successMessage.js"),
       {DealsCat} = require("./Utils/Models/DealsCat.js"),
       {Compress} = require("./Utils/compress.js");
 
-
-let data_model = xlsx.parse(`Utils/Data/deals_cat_data_model.xlsx`),
+let data_model = xlsx.parse(`Utils/Data/deals_data_model.xlsx`),
     dataArr = data_model[0].data,
     count = 0;
 
