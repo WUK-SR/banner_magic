@@ -35,7 +35,9 @@ const Logic = (input) => {
       dataArr[i][10],
       dataArr[i][11],
       dataArr[i][12],
-      dataArr[i][13]
+      dataArr[i][13],
+      dataArr[i][14],
+      dataArr[i][15]
     ));
   }
   Success(count);

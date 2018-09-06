@@ -1,5 +1,5 @@
 
-const DealsCat = (cat, title_one, title_two, was_price, now_price, img_link, generic_message, message_two_a, message_two_b, promo, promo_text, code, url_link) => {
+const DealsCat = (cat, title_one, title_two, was_price, now_price, cat_img_link, hp_image_link, generic_message, message_two_a, message_two_b, promo, promo_text, code, url_link, HP) => {
 
   let message = `<h2 style="position:absolute;font-size: 41px;left: 603px;top: 11px;color: #cd2e31;font-weight: 800;margin-top: 0;line-height: 38px;"> Great <br> Value </h2>`,
       promo_spot = ``;
@@ -44,7 +44,7 @@ const DealsCat = (cat, title_one, title_two, was_price, now_price, img_link, gen
                   </div>
                 </div>
 
-                    <img style="position: absolute;height: auto;width: 135px;left: 430px;top: 7px;" src="${img_link}" alt="Great deals at wolseley.co.uk">
+                    <img style="position: absolute;height: auto;width: 135px;left: 430px;top: 7px;" src="${cat_img_link}" alt="Great deals at wolseley.co.uk">
 
                     <div class="sw_deals__table-container">
                         <table class="sw_deals__table" style="position:  absolute;top: -11px;left: 483px;">
