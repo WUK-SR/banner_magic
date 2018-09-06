@@ -16,7 +16,9 @@ let data_model = xlsx.parse(`Utils/Data/data_model.xlsx`),
 for(let i = 0; i < dataArr.length; i++) {
   count++;
   fs.writeFileSync(`Banners/${count}-${dataArr[i][0]}.txt`, Model(
-    dataArr[i][0]
+    dataArr[i][0],
+    dataArr[i][1],
+    dataArr[i][2]
   ));
 }
 
