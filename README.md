@@ -22,8 +22,12 @@ Follow the contents sections below in order to setup the application to fit your
 
 
 <a name="Installation"></a>
+## Requirements
+Banner magic requires Node.js version 10.9.0 or newer to operate.
+
+<a name="Installation"></a>
 ## Installation
-Clone banner magic and then run `npm install` to download all the dependencies.
+Download the latest version banner magic and then run `npm install` to download all the dependencies. You are now ready to go!
 
 <a name="Uploading_the_data"></a>
 ## Uploading the data
