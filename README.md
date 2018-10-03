@@ -42,15 +42,20 @@ To update this data, open up the desired Excel and enter the data that you want,
 ## Choosing a template
 Once the data has been loaded into the correct Excel sheet, you have 4 templates to choose from.
 1. Deals category banner
-2. Deals homepage banner
-3. Online offers category banner
-4. Online offers homepage banner
+2. Deals search term banner
+3. Deals homepage banner
+4. Online offers category banner
+5. Online offers homepage banner
 
 ### Deals category banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_DC`.
 
+### Deals search term banner
+To choose and run the app with a deals search term banner template, use the line `npm run magic_DST`.
+
 ### Deals homepage banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_DH`.
+
 ** All the data in the Excel sheet will be converted into a Homepage banner, but only the ones where the keyword `YES` was stated in the `HP` column of the sheet will contain content, otherwise the files will render `Empty.`. These empty files can simply be deleted after generation.
 
 ### Online offers category banner
@@ -58,6 +63,7 @@ To choose and run the app with a deals category banner template, use the line `n
 
 ### Online offers homepage banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_OOH`.
+
 ** All the data in the Excel sheet will be converted into a Homepage banner, but only the ones where the keyword `YES` was stated in the `HP` column of the sheet will contain content, otherwise the files will render `Empty.`. These empty files can simply be deleted after generation.
 
 <a name="Output"></a>
