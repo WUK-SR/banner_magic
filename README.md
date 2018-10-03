@@ -32,9 +32,9 @@ Download the latest version banner magic and then run `npm install` to download 
 
 <a name="Uploading_the_data"></a>
 ## Uploading the data
-Inside the `Data` folder - found inside `Utils` in of the application - you will find two Excel sheets, one titled `deals_data_model.xlsx`, and the other titled `online_offer_data_model.xlsx`.
+Inside the `Data` folder - found inside `Utils` in of the application - you will find three Excel sheets, `deals_data_model.xlsx`,`deals_search_terms_data_model.xlsx` and `online_offer_data_model.xlsx`.
 
-To update this data, open up the desired Excel and enter the data that you want, making sure to follow the supplied headings. Use  **Each row will be its own banner** and you can generate both category/homepage banners from the same Excel sheet, just use the keyword `YES` in the `HP` column at the end of the sheet. Make sure to update the data in the correct Excel sheet, as they contain the correct branding/colours for that style of banner eg. deals or online offers.
+To update this data, open up the desired Excel and enter the data that you want, making sure to follow the supplied headings. **Each row will be its own banner** and you can generate both category/homepage banners from the same Excel sheet, just use the keyword `YES` in the `HP` column at the end of the sheet. Make sure to update the data in the correct Excel sheet, as they contain the correct branding/colours for that style of banner eg. deals or online offers.
 
 ![Example of Excel sheet data model](Utils/Images/Excel_Sheet_Example.png)
 
