@@ -9,7 +9,8 @@
     "magic_DH": "node app.js -t=deals -s=hp",
     "magic_DST": "node app.js -t=deals -s=st",
     "magic_OOC": "node app.js -t=online_offers -s=cat",
-    "magic_OOH": "node app.js -t=online_offers -s=hp"
+    "magic_OOH": "node app.js -t=online_offers -s=hp",
+    "magic_HOC": "node app.js -t=hot_offers -s=cat"
   },
   "repository": {
     "type": "git",

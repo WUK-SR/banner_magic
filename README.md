@@ -32,7 +32,7 @@ Download the latest version banner magic and then run `npm install` to download 
 
 <a name="Uploading_the_data"></a>
 ## Uploading the data
-Inside the `Data` folder - found inside `Utils` in of the application - you will find three Excel sheets, `deals_data_model.xlsx`,`deals_search_terms_data_model.xlsx` and `online_offer_data_model.xlsx`.
+Inside the `Data` folder - found inside `Utils` in of the application - you will find four Excel sheets, `deals_data_model.xlsx`,`deals_search_terms_data_model.xlsx`, `online_offer_data_model.xlsx` and `hot_offers_data_model.xlsx`.
 
 To update this data, open up the desired Excel and enter the data that you want, making sure to follow the supplied headings. **Each row will be its own banner** and you can generate both category/homepage banners from the same Excel sheet, just use the keyword `YES` in the `HP` column at the end of the sheet. Make sure to update the data in the correct Excel sheet, as they contain the correct branding/colours for that style of banner eg. deals or online offers.
 
@@ -40,12 +40,13 @@ To update this data, open up the desired Excel and enter the data that you want,
 
 <a name="Choosing_a_template"></a>
 ## Choosing a template
-Once the data has been loaded into the correct Excel sheet, you have 4 templates to choose from.
+Once the data has been loaded into the correct Excel sheet, you have 6 templates to choose from.
 1. Deals category banner
 2. Deals search term banner
 3. Deals homepage banner
-4. Online offers category banner
-5. Online offers homepage banner
+4. Hot offers category banner
+5. Online offers category banner
+6. Online offers homepage banner
 
 ### Deals category banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_DC`.
@@ -57,6 +58,9 @@ To choose and run the app with a deals search term banner template, use the line
 To choose and run the app with a deals category banner template, use the line `npm run magic_DH`.
 
 ** All the data in the Excel sheet will be converted into a Homepage banner, but only the ones where the keyword `YES` was stated in the `HP` column of the sheet will contain content, otherwise the files will render `Empty.`. These empty files can simply be deleted after generation.
+
+### Hot offers category banner
+To choose and run the app with a deals category banner template, use the line `npm run magic_HOC`.
 
 ### Online offers category banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_OOC`.
