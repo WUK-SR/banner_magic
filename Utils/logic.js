@@ -66,7 +66,6 @@ const Logic = (input) => {
         dataArr[i][11],
         dataArr[i][12]
       ));
-      console.log(dataArr[i][12]);
     }
     Success(count,input);
     Compress('Banners',input);
