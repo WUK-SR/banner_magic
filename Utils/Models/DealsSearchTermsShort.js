@@ -1,5 +1,5 @@
 
-const DealsSearchTerms = (cat,message,percentage) => {
+const DealsSearchTermsShort = (cat,message,percentage) => {
 
   let price_message = ``;
 
@@ -9,18 +9,18 @@ const DealsSearchTerms = (cat,message,percentage) => {
       <h4 style="margin:0;color:#fff;font-weight:  500;font-size: 19px;line-height: 16px;"> over </h4>
       <h3 style="margin:0;font-weight: 500;color:#fff;font-size: 50px;line-height: 52px;"> ${percentage} </h3>
     </div>`
+  } else if(message === "Save") {
+    price_message = `<div style="position:absolute;top: 11px;right: 60px;text-align:center;">
+      <h4 style="margin:0;color:#fff;font-size: 31px;font-weight: 500;line-height: 39px;"> Save </h4>
+      <h3 style="margin:0;font-weight: 500;color:#fff;font-size: 50px;line-height: 52px;"> ${percentage} </h3>
+    </div>`
   } else if(message === "Save up to") {
     price_message = `<div style="position:absolute;top: 11px;right: 60px;text-align:center;">
       <h4 style="margin:0;color:#fff;font-size: 31px;font-weight: 500;line-height: 39px;"> Save </h4>
       <h4 style="margin:0;color:#fff;font-weight:  500;font-size: 19px;line-height: 16px;"> up to </h4>
       <h3 style="margin:0;font-weight: 500;color:#fff;font-size: 50px;line-height: 52px;"> ${percentage} </h3>
     </div>`
-  } else if(message === "Save value") {
-    price_message = `<div style="position:absolute;top: 23px;right: 64px;text-align:center;">
-          <h4 style="margin:0;color:#fff;font-size: 36px;font-weight: 500;line-height: 39px;"> Great </h4>
-          <h4 style="margin:0;color:#fff;font-size: 36px;font-weight: 500;line-height: 39px;"> value </h4>
-        </div>`
-  } else if(message === "Great deals") {
+  } else if(message === "Great deals" || message === "Great Deals" || message === "great deals" ) {
     price_message = `<div style="position:absolute;top: 23px;right: 64px;text-align:center;">
           <h4 style="margin:0;color:#fff;font-size: 36px;font-weight: 500;line-height: 39px;"> Great </h4>
           <h4 style="margin:0;color:#fff;font-size: 36px;font-weight: 500;line-height: 39px;"> deals </h4>
@@ -76,5 +76,5 @@ if(cat.length >= 9) {
 };
 
 module.exports = {
-  DealsSearchTerms
+  DealsSearchTermsShort
 };
