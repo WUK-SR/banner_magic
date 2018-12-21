@@ -37,10 +37,7 @@ const Logic = (input) => {
         dataArr[i][9],
         dataArr[i][10],
         dataArr[i][11],
-        dataArr[i][12],
-        dataArr[i][13],
-        dataArr[i][14],
-        dataArr[i][15]
+        dataArr[i][12]
       ));
     }
     Success(count,input);
@@ -67,11 +64,9 @@ const Logic = (input) => {
         dataArr[i][9],
         dataArr[i][10],
         dataArr[i][11],
-        dataArr[i][12],
-        dataArr[i][13],
-        dataArr[i][14],
-        dataArr[i][15]
+        dataArr[i][12]
       ));
+      console.log(dataArr[i][12]);
     }
     Success(count,input);
     Compress('Banners',input);

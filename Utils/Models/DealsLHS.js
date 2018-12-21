@@ -1,5 +1,5 @@
 
-const DealsLHS = (cat, title_one, title_two, was_price, now_price, cat_img_link, hp_image_link, generic_message, message_two_a, message_two_b, promo, promo_text, code, url_link, HP) => {
+const DealsLHS = (cat, title_one, title_two, was_price, now_price, cat_img_link, generic_message, message_two_a, message_two_b, promo, promo_text, code, url_link) => {
 
   let message = `<h4 style="position:absolute;left:0;right:0;margin:auto;bottom: 148px;margin-top: 0;font-weight: 700;text-align: center;font-size: 25px;width:170px;color:#cd2e31;border-bottom: 1px solid #f1f1f1;padding-bottom: 6px;"> Great value</h4>`,
       promo_spot = ``;
@@ -14,7 +14,7 @@ const DealsLHS = (cat, title_one, title_two, was_price, now_price, cat_img_link,
     <div class="sw_layout--content">
         <a href="${url_link}" style="text-decoration:none;" title="View this offer">
 
-          <div style="background-color:#fff; width:200px;height:550px;border:1px solid #3b3b3b;position:relative;overflow:hidden;">
+          <div style="background-color:#fff; width:200px;height:550px;border:1px solid #3b3b3b;position:relative;overflow:hidden;margin-bottom:20px;">
 
             <svg style="width: 330px;position: absolute;top: -150px;right: -58px;" enable-background="new 0 0 200 200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path d="m176.3 46.2-66.9-38.6c-5.1-2.9-13.1-2.9-18.2 0l-66.9 38.6c-5.1 2.9-9.1 9.8-9.1 15.7v77.2c.3 6.4 3.7 12.3 9.1 15.7l66.9 38.6c5.7 2.9 12.5 2.9 18.2 0l66.9-38.6c5.4-3.5 8.8-9.3 9.1-15.7v-77.2c-.1-5.9-4-12.8-9.1-15.7z" fill="#3b3b3b"></path></svg>
 
