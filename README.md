@@ -1,8 +1,6 @@
 
 ![Example of Excel sheet data model](Utils/Images/logo.png)
 
-Version 2.3.0
-
 Banner Magic is a CLI application that can be used to speed up the process of creating repetitive HTML assets.
 
 There are 2 steps to running Banner Magic -
