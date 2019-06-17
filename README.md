@@ -10,7 +10,7 @@ There are 2 steps to running Banner Magic -
 Follow the contents sections below in order to setup the application to fit your needs.
 
 ### Download the application
-[Click here!](https://github.com/stevenrobertswolseley/banner_magic/archive/master.zip)
+[Click here!](https://github.com/WUK-SR/banner_magic/archive/master.zip)
 
 ### Contents
 1. [Requirements](#Requirements)
