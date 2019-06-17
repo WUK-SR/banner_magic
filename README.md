@@ -34,7 +34,9 @@ If you don't have Node.js installed, you can download it [here](https://nodejs.o
 
 <a name="Installation"></a>
 ## Installation
-Download the latest version banner magic and then run `npm install` to download all the dependencies. You are now ready to go!
+Download the latest version banner magic and then run `npm install` to download all the dependencies. 
+
+You are now ready to go!
 
 <a name="Uploading_the_data"></a>
 ## Uploading the data
@@ -64,9 +66,15 @@ To choose and run the app with a short deals search term banner template, use th
 ### Deals search term banner - long
 To choose and run the app with a long deals search term banner template, use the line `npm run magic_DSTL`.
 
+Once you have picked a banner style, make sure you `cd` into the Banner Magic folder and then you can run the command of your choice.
+
+![Running the application](Utils/Images/running_the_app.png)
+
 
 <a name="Output"></a>
 ## Output
 The outputted code can be found in the `Banners` folder at the root level of the application. Once the application has been successfully run, this folder will be populated with each generated banner as a `.txt` file.
+
+![The output folder](Utils/Images/banners_folder.png)
 
 You will also get a `.zip` folder containing all of the generated banners.
