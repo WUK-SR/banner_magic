@@ -30,7 +30,7 @@ Not sure if you have Node.js installed? Enter `node -v` in your terminal to chec
 
 If you have Node.js installed, you will get a version number returned to you, this number needs to be at least `v10.9.0` in order to run Banner Magic.
 
-If you don't have Node.js installed, you can download it [here!](https://nodejs.org/en/).
+If you don't have Node.js installed, you can download it [here](https://nodejs.org/en/).
 
 <a name="Installation"></a>
 ## Installation
