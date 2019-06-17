@@ -3,7 +3,7 @@
 
 Version 2.3.0
 
-Banner Magic is a semi-automatic HTML banner creation application that can be used to speed up the process of creating banner assets.
+Banner Magic is a CLI application that can be used to speed up the process of creating repetitive HTML assets.
 
 There are 2 steps to running Banner Magic -
 <br/>
@@ -40,7 +40,7 @@ To update this data, open up the desired Excel and enter the data that you want,
 
 <a name="Choosing_a_template"></a>
 ## Choosing a template
-Once the data has been loaded into the correct Excel sheet, you have 6 templates to choose from.
+Once the data has been loaded into the correct Excel sheet, you have the following templates to choose from.
 1. Deals category banner - 745 x 150
 2. Deals search term banner (long) - 937 x 150
 3. Deals search term banner (short) - 750 x 150
