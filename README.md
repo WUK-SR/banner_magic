@@ -54,16 +54,16 @@ Once the data has been loaded into the correct Excel sheet, you have the followi
 3. Deals search term banner (short) - 750 x 150
 4. Deals left hand side banner - 200 x 550
 
-### Deals category banner
+#### Deals category banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_DC`.
 
-### Deals LHS banner
+#### Deals LHS banner
 To choose and run the app with a deals left hand side banner template, use the line `npm run magic_DLHS`.
 
-### Deals search term banner - short
+#### Deals search term banner - short
 To choose and run the app with a short deals search term banner template, use the line `npm run magic_DSTS`.
 
-### Deals search term banner - long
+#### Deals search term banner - long
 To choose and run the app with a long deals search term banner template, use the line `npm run magic_DSTL`.
 
 Once you have picked a banner style, make sure you `cd` into the Banner Magic folder and then you can run the command of your choice.
