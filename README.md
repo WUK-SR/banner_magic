@@ -51,22 +51,22 @@ To update this data, open up the desired Excel and enter the data that you want,
 <a name="Choosing_a_template"></a>
 ## Choosing a template
 Once the data has been loaded into the correct Excel sheet, you have the following templates to choose from.
-1. Deals category banner - 745 x 150
-2. Deals search term banner (long) - 937 x 150
-3. Deals search term banner (short) - 750 x 150
-4. Deals left hand side banner - 200 x 550
+1. Deals category banner - 745 x 150 - **Use data sheet deals_data_model.xlsx**
+2. Deals search term banner (long) - 937 x 150 - **Use data sheet deals_data_model.xlsx**
+3. Deals search term banner (short) - 750 x 150 - **Use data sheet deals_search_terms_data_model.xlsx**
+4. Deals left hand side banner - 200 x 550 - **Use data sheet deals_search_terms_data_model.xlsx**
 
 #### Deals category banner
-To choose and run the app with a deals category banner template, use the line `npm run magic_DC`. **Use data sheet deals_data_model.xlsx**
+To choose and run the app with a deals category banner template, use the line `npm run magic_DC`.
 
 #### Deals LHS banner
-To choose and run the app with a deals left hand side banner template, use the line `npm run magic_DLHS`. **Use data sheet deals_data_model.xlsx**
+To choose and run the app with a deals left hand side banner template, use the line `npm run magic_DLHS`.
 
 #### Deals search term banner - short
-To choose and run the app with a short deals search term banner template, use the line `npm run magic_DSTS`. **Use data sheet deals_search_terms_data_model.xlsx**
+To choose and run the app with a short deals search term banner template, use the line `npm run magic_DSTS`.
 
 #### Deals search term banner - long
-To choose and run the app with a long deals search term banner template, use the line `npm run magic_DSTL`. **Use data sheet deals_search_terms_data_model.xlsx**
+To choose and run the app with a long deals search term banner template, use the line `npm run magic_DSTL`.
 
 Once you have picked a banner style, make sure you `cd` into the Banner Magic folder and then you can run the command of your choice.
 
