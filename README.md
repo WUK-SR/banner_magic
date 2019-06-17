@@ -41,12 +41,10 @@ To update this data, open up the desired Excel and enter the data that you want,
 <a name="Choosing_a_template"></a>
 ## Choosing a template
 Once the data has been loaded into the correct Excel sheet, you have 6 templates to choose from.
-1. Deals category banner
-2. Deals search term banner
-3. Deals homepage banner
-4. Hot offers category banner
-5. Online offers category banner
-6. Online offers homepage banner
+1. Deals category banner - 745 x 150
+2. Deals search term banner (long) - 937 x 150
+3. Deals search term banner (short) - 750 x 150
+4. Deals left hand side banner - 200 x 550
 
 ### Deals category banner
 To choose and run the app with a deals category banner template, use the line `npm run magic_DC`.

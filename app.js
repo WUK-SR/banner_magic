@@ -2,9 +2,7 @@
 const yargs = require('yargs')
 
 // Import local
-const {Compress} = require("./Utils/compress.js"),
-      {Logic,finalCount} = require("./Utils/logic.js");
-
+const {Logic} = require("./Utils/logic.js");
 
 const argv = yargs.argv;
 
