@@ -40,9 +40,11 @@ You are now ready to go!
 
 <a name="Uploading_the_data"></a>
 ## Uploading the data
-Inside the `Data` folder - found inside `Utils` in of the application - you will find four Excel sheets, `deals_data_model.xlsx`,`deals_search_terms_data_model.xlsx`, `online_offer_data_model.xlsx` and `hot_offers_data_model.xlsx`.
+Inside the `Data` folder - found inside `Utils` in of the application - you will find the data Excel sheets that will drive the content of the HTML assets.
 
-To update this data, open up the desired Excel and enter the data that you want, making sure to follow the supplied headings. **Each row will be its own banner** and you can generate both category/homepage banners from the same Excel sheet, just use the keyword `YES` in the `HP` column at the end of the sheet. Make sure to update the data in the correct Excel sheet, as they contain the correct branding/colours for that style of banner eg. deals or online offers.
+To update this data, open up the desired Excel and enter the data that you want, making sure to follow the supplied headings; each row in the data sheet will be treated as a seperate banner.
+
+**Take a look below at the "Choosing a template" section to see what data sheet to use.**
 
 ![Example of Excel sheet data model](Utils/Images/Excel_Sheet_Example.png)
 
@@ -55,16 +57,16 @@ Once the data has been loaded into the correct Excel sheet, you have the followi
 4. Deals left hand side banner - 200 x 550
 
 #### Deals category banner
-To choose and run the app with a deals category banner template, use the line `npm run magic_DC`.
+To choose and run the app with a deals category banner template, use the line `npm run magic_DC`. **Use data sheet deals_data_model.xlsx**
 
 #### Deals LHS banner
-To choose and run the app with a deals left hand side banner template, use the line `npm run magic_DLHS`.
+To choose and run the app with a deals left hand side banner template, use the line `npm run magic_DLHS`. **Use data sheet deals_data_model.xlsx**
 
 #### Deals search term banner - short
-To choose and run the app with a short deals search term banner template, use the line `npm run magic_DSTS`.
+To choose and run the app with a short deals search term banner template, use the line `npm run magic_DSTS`. **Use data sheet deals_search_terms_data_model.xlsx**
 
 #### Deals search term banner - long
-To choose and run the app with a long deals search term banner template, use the line `npm run magic_DSTL`.
+To choose and run the app with a long deals search term banner template, use the line `npm run magic_DSTL`. **Use data sheet deals_search_terms_data_model.xlsx**
 
 Once you have picked a banner style, make sure you `cd` into the Banner Magic folder and then you can run the command of your choice.
 
