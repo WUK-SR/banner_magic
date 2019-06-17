@@ -24,7 +24,7 @@ Follow the contents sections below in order to setup the application to fit your
 ## Requirements
 Banner Magic requires Node.js version 10.9.0 or newer to operate.
 
-Not sure if you have Node.js installed? Enter `node -v` in your terminal to check version number.
+Not sure if you have Node.js installed? Enter `node -v` in your terminal to check the version number.
 
 ![Checking for Node.js](Utils/Images/checking_for_node.png)
 
