@@ -83,3 +83,4 @@ The outputted code can be found in the `Banners` folder at the root level of the
 You will also get a `.zip` folder containing all of the generated banners.
 
 ## Adding new models
+Adding new models to the application is easy to do, just follow these steps.
