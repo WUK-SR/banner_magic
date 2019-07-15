@@ -41,9 +41,9 @@ You are now ready to go!
 
 <a name="Uploading_the_data"></a>
 ## Uploading the data
-Inside the `Data` folder - found inside `Utils` in of the application - you will find the data Excel sheets that will drive the content of the HTML assets.
+Inside the `Data` folder - found inside `Utils` - you will find the Excel sheets that drive the content for the HTML assets.
 
-To update this data, open up the desired Excel and enter the data that you want, making sure to follow the supplied headings; each row in the data sheet will be treated as a seperate banner.
+To update this data, open up the desired Excel sheet and enter the data that you want, making sure to follow the supplied headings; each row in the data sheet will be treated as a seperate banner.
 
 **Take a look below at the "Choosing a template" section to see what data sheet to use.**
 
