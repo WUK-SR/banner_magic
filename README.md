@@ -81,3 +81,5 @@ The outputted code can be found in the `Banners` folder at the root level of the
 ![The output folder](Utils/Images/banners_folder.png)
 
 You will also get a `.zip` folder containing all of the generated banners.
+
+## Adding new models
