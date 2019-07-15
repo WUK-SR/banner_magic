@@ -90,7 +90,11 @@ Adding new models to the application is easy to do, just follow these steps.
 Inside the `Models` folder, create a new .js file with a title that describes what HTML asset will be generated from the model.
 
 ![Step 2](Utils/Images/Adding_New_Model_Step2.png)
-Inside this new .js file, create a `const` variable that has a value of an arrow function - leave room for paramaters to be passed to the function as shown. The arrow function will `return` a block of html as a string.
+Inside this new .js file, create a `const` variable that has a value of an arrow function - leave room for parameters to be passed to the function as shown. The arrow function will `return` a block of html as a string.
 
 ![Step 3](Utils/Images/Adding_New_Model_Step3.png)
-Inside the parentheses of the functions `return`, paste the html template that you want to generate. ***NOTE* Use backticks to wrap the html rather than standard quotes, this will let you use template literals to dynamicly insert the parameters**
+Inside the parentheses of the functions `return`, paste the html template that you want to generate. ***NOTE* - Use backticks to wrap the html rather than standard quotes, this will let you use template literals to dynamicly insert the parameters.**
+
+Inside the parentheses of the function, add the parameters that you want dynamicly added to the html code. In this example we are using the parameters `Name`, `Age` and `Location`.
+
+Using `template literals - ${VARIABLE}`, you can inject the parameters into the html code where desiered. 
