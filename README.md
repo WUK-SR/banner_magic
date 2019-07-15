@@ -98,3 +98,5 @@ Inside the parentheses of the functions `return`, paste the html template that y
 Inside the parentheses of the function, add the parameters that you want dynamicly added to the html code. In this example we are using the parameters `Name`, `Age` and `Location`.
 
 Using `template literals - ${VARIABLE}`, you can inject the parameters into the html code where desiered. 
+
+***NOTE* - Due to the fact that most generated html assers are small in size, it is offten easier to use inline styling to keep things consistant and simple.**
