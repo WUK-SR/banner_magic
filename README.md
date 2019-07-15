@@ -34,7 +34,7 @@ If you don't have Node.js installed, you can download it [here](https://nodejs.o
 
 <a name="Installation"></a>
 ## Installation
-Download the latest version banner magic and then run `npm install` to download all the dependencies. 
+[Download](https://github.com/WUK-SR/banner_magic/archive/master.zip) the latest version banner magic and then run `npm install` to download all the dependencies. 
 
 You are now ready to go!
 
