@@ -108,4 +108,6 @@ Using `template literals - ${VARIABLE}`, you can inject the parameters into the 
 Inside the `Data` folder, create a new .xlsx file that contains 
 
 ![Data Step 2](Utils/Images/Adding_New_Data_Step2.png)
-Inside that new data file, 
+Inside that new data file, use row 1 to list out the headers of the columns so the data is readable. Then use each row after to add data.
+
+***NOTE* - Each row (except the row 1) will be treated as a new html asset, so this example data set will create 4 html assets.**
