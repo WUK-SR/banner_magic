@@ -86,13 +86,13 @@ You will also get a `.zip` folder containing all of the generated banners.
 Adding new models to the application is easy to do, just follow these steps.
 
 ### Create a new model file
-![Step 1](Utils/Images/Adding_New_Model_Step1.png)
+![Model Step 1](Utils/Images/Adding_New_Model_Step1.png)
 Inside the `Models` folder, create a new .js file with a title that describes what HTML asset will be generated from the model.
 
-![Step 2](Utils/Images/Adding_New_Model_Step2.png)
+![Model Step 2](Utils/Images/Adding_New_Model_Step2.png)
 Inside this new .js file, create a `const` variable that has a value of an arrow function - leave room for parameters to be passed to the function as shown. The arrow function will `return` a block of html as a string.
 
-![Step 3](Utils/Images/Adding_New_Model_Step3.png)
+![Model Step 3](Utils/Images/Adding_New_Model_Step3.png)
 Inside the parentheses of the functions `return`, paste the html template that you want to generate. 
 
 ***NOTE* - Use backticks to wrap the html rather than standard quotes, this will let you use template literals to dynamicly insert the parameters.**
@@ -101,4 +101,8 @@ Inside the parentheses of the function, add the parameters that you want dynamic
 
 Using `template literals - ${VARIABLE}`, you can inject the parameters into the html code where desiered. 
 
-***NOTE* - Due to the fact that most generated html assers are small in size, it is offten easier to use inline styling to keep things consistant and simple.**
+***NOTE* - Due to the fact that most generated html assers are small in size, it is offten easier to use inline styling to keep things consistent and simple.**
+
+### Create a new data set
+![Data Step 1](Utils/Images/Adding_New_Data_Step1.png)
+Inside the `Data` folder, create a new .xlsx file that contains 
