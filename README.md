@@ -106,3 +106,6 @@ Using `template literals - ${VARIABLE}`, you can inject the parameters into the 
 ### Create a new data set
 ![Data Step 1](Utils/Images/Adding_New_Data_Step1.png)
 Inside the `Data` folder, create a new .xlsx file that contains 
+
+![Data Step 2](Utils/Images/Adding_New_Data_Step2.png)
+Inside that new data file, 
