@@ -87,3 +87,4 @@ Adding new models to the application is easy to do, just follow these steps.
 
 ### Create a new model file
 ![Step 1](Utils/Images/Adding_New_Model_Step1.png)
+![Step 2](Utils/Images/Adding_New_Model_Step2.png)
