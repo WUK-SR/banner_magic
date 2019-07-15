@@ -7,4 +7,4 @@ const myNewModel = (Name, Age, Location) => {
             <h3 style="color:red;font-size:24px;">${Location}</h3>
         </div>`
     );
-};     
+};       
