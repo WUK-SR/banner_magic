@@ -105,9 +105,9 @@ Using `template literals - ${VARIABLE}`, you can inject the parameters into the 
 
 ### Create a new data set
 ![Data Step 1](Utils/Images/Adding_New_Data_Step1.png)
-Inside the `Data` folder, create a new .xlsx file that contains 
+Inside the `Data` folder, create a new .xlsx file that will contain the data for the new model.
 
 ![Data Step 2](Utils/Images/Adding_New_Data_Step2.png)
 Inside that new data file, use row 1 to list out the headers of the columns so the data is readable. Then use each row after to add data.
 
-***NOTE* - Each row (except the row 1) will be treated as a new html asset, so this example data set will create 4 html assets.**
+***NOTE* - Each row (except row 1) will be treated as a new html asset, so this example data set will create 4 html assets.**
