@@ -91,3 +91,6 @@ Inside the `Models` folder, create a new .js file with a title that describes wh
 
 ![Step 2](Utils/Images/Adding_New_Model_Step2.png)
 Inside this new .js file, create a `const` variable that has a value of an arrow function - leave room for paramaters to be passed to the function as shown. The arrow function will `return` a block of html as a string.
+
+![Step 3](Utils/Images/Adding_New_Model_Step3.png)
+Inside this new .js file, create a `const` variable that has a value of an arrow function - leave room for paramaters to be passed to the function as shown. The arrow function will `return` a block of html as a string.
