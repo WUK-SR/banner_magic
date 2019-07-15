@@ -84,3 +84,5 @@ You will also get a `.zip` folder containing all of the generated banners.
 
 ## Adding new models
 Adding new models to the application is easy to do, just follow these steps.
+
+### Create a new model file
