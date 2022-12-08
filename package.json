@@ -22,7 +22,7 @@
   "homepage": "https://github.com/stevenrobertsdev/Banner_Magic#readme",
   "dependencies": {
     "adm-zip": "^0.4.11",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.2.0",
